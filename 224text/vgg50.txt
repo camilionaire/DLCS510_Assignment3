@@ -1,0 +1,79 @@
+None
+Learning Rate:  0.01
+Batch Size:  10
+Epochs:  25
+Training Size: 50x10
+Image Dimensions: 224x224
+Stochastic Gradient Descent
+Cross Entropy Loss Function
+MNIST DataSet
+Still with global_average_pooling2d and then
+Dense, 10, SoftMax
+Epoch 1/25
+50/50 [==============================] - 1621s 33s/step - loss: 4.6355 - accuracy: 0.4600 - val_loss: 1.0276 - val_accuracy: 0.7013
+Epoch 2/25
+50/50 [==============================] - 1655s 34s/step - loss: 1.1559 - accuracy: 0.7520 - val_loss: 0.6367 - val_accuracy: 0.8102
+Epoch 3/25
+50/50 [==============================] - 1673s 34s/step - loss: 0.4587 - accuracy: 0.8780 - val_loss: 2.6483 - val_accuracy: 0.4809
+Epoch 4/25
+50/50 [==============================] - 1637s 33s/step - loss: 0.4246 - accuracy: 0.8840 - val_loss: 1.1102 - val_accuracy: 0.6994
+Epoch 5/25
+50/50 [==============================] - 1377s 28s/step - loss: 0.2579 - accuracy: 0.9180 - val_loss: 0.5776 - val_accuracy: 0.8285
+Epoch 6/25
+50/50 [==============================] - 1341s 27s/step - loss: 0.1348 - accuracy: 0.9580 - val_loss: 0.4144 - val_accuracy: 0.8724
+Epoch 7/25
+50/50 [==============================] - 1322s 27s/step - loss: 0.0883 - accuracy: 0.9820 - val_loss: 0.3829 - val_accuracy: 0.8841
+Epoch 8/25
+50/50 [==============================] - 1311s 27s/step - loss: 0.0704 - accuracy: 0.9840 - val_loss: 0.3913 - val_accuracy: 0.8785
+Epoch 9/25
+50/50 [==============================] - 1310s 27s/step - loss: 0.0505 - accuracy: 0.9920 - val_loss: 0.3313 - val_accuracy: 0.8970
+Epoch 10/25
+50/50 [==============================] - 1310s 27s/step - loss: 0.0342 - accuracy: 1.0000 - val_loss: 0.3349 - val_accuracy: 0.8996
+Epoch 11/25
+50/50 [==============================] - 1320s 27s/step - loss: 0.0471 - accuracy: 0.9920 - val_loss: 0.3569 - val_accuracy: 0.8900
+Epoch 12/25
+50/50 [==============================] - 1314s 27s/step - loss: 0.0285 - accuracy: 0.9960 - val_loss: 0.3280 - val_accuracy: 0.9001
+Epoch 13/25
+50/50 [==============================] - 1325s 27s/step - loss: 0.0254 - accuracy: 1.0000 - val_loss: 0.3098 - val_accuracy: 0.9053
+Epoch 14/25
+50/50 [==============================] - 1351s 28s/step - loss: 0.0201 - accuracy: 1.0000 - val_loss: 0.3117 - val_accuracy: 0.9049
+Epoch 15/25
+50/50 [==============================] - 1350s 28s/step - loss: 0.0195 - accuracy: 1.0000 - val_loss: 0.3082 - val_accuracy: 0.9047
+Epoch 16/25
+50/50 [==============================] - 1343s 27s/step - loss: 0.0172 - accuracy: 1.0000 - val_loss: 0.3146 - val_accuracy: 0.9028
+Epoch 17/25
+50/50 [==============================] - 1347s 27s/step - loss: 0.0172 - accuracy: 1.0000 - val_loss: 0.3079 - val_accuracy: 0.9046
+Epoch 18/25
+50/50 [==============================] - 1347s 27s/step - loss: 0.0158 - accuracy: 1.0000 - val_loss: 0.3068 - val_accuracy: 0.9067
+Epoch 19/25
+50/50 [==============================] - 1356s 28s/step - loss: 0.0151 - accuracy: 1.0000 - val_loss: 0.3041 - val_accuracy: 0.9078
+Epoch 20/25
+50/50 [==============================] - 1320s 27s/step - loss: 0.0145 - accuracy: 1.0000 - val_loss: 0.3055 - val_accuracy: 0.9075
+Epoch 21/25
+50/50 [==============================] - 1320s 27s/step - loss: 0.0142 - accuracy: 1.0000 - val_loss: 0.3047 - val_accuracy: 0.9058
+Epoch 22/25
+50/50 [==============================] - 1320s 27s/step - loss: 0.0133 - accuracy: 1.0000 - val_loss: 0.3008 - val_accuracy: 0.9090
+Epoch 23/25
+50/50 [==============================] - 1322s 27s/step - loss: 0.0131 - accuracy: 1.0000 - val_loss: 0.3007 - val_accuracy: 0.9096
+Epoch 24/25
+50/50 [==============================] - 1321s 27s/step - loss: 0.0126 - accuracy: 1.0000 - val_loss: 0.3026 - val_accuracy: 0.9084
+Epoch 25/25
+50/50 [==============================] - 1315s 27s/step - loss: 0.0121 - accuracy: 1.0000 - val_loss: 0.3064 - val_accuracy: 0.9081
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ model (Functional)          (None, 4096)              139570240
+
+ dense (Dense)               (None, 10)                40970
+
+=================================================================
+Total params: 139,611,210
+Trainable params: 40,970
+Non-trainable params: 139,570,240
+_________________________________________________________________
+Over all of the testing data:
+
+313/313 - 1211s - loss: 0.3064 - accuracy: 0.9081 - 1211s/epoch - 4s/step
+test acc  0.9081000089645386
+test loss  0.30635789036750793

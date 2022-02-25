@@ -1,0 +1,83 @@
+new xtrain :  (900, 224, 224, 3)
+new ytrain :  (900, 10)
+Learning Rate:  0.01
+Batch Size:  10
+Epochs:  25
+Training Size: 90x10
+Image Dimensions: 224x224
+Stochastic Gradient Descent
+Cross Entropy Loss Function
+MNIST DataSet
+Still with global_average_pooling2d and then
+Dense, 10, SoftMax
+Epoch 1/25
+90/90 [==============================] - 555s 6s/step - loss: 1.9658 - accuracy: 0.4067 - val_loss: 1.0181 - val_accuracy: 0.7539
+Epoch 2/25
+90/90 [==============================] - 574s 6s/step - loss: 0.8175 - accuracy: 0.7344 - val_loss: 0.7089 - val_accuracy: 0.76187618    25
+Epoch 3/25                                                                                                                   7073
+90/90 [==============================] - 559s 6s/step - loss: 0.6038 - accuracy: 0.7933 - val_loss: 1.0426 - val_accuracy: 0.7073
+Epoch 4/25
+90/90 [==============================] - 561s 6s/step - loss: 0.5065 - accuracy: 0.8378 - val_loss: 0.4327 - val_accuracy: 0.8783
+Epoch 5/25
+90/90 [==============================] - 593s 7s/step - loss: 0.3758 - accuracy: 0.8889 - val_loss: 0.3966 - val_accuracy: 0.8813
+Epoch 6/25
+90/90 [==============================] - 567s 6s/step - loss: 0.3290 - accuracy: 0.9078 - val_loss: 0.4478 - val_accuracy: 0.8508
+Epoch 7/25
+90/90 [==============================] - 558s 6s/step - loss: 0.2873 - accuracy: 0.9333 - val_loss: 0.3434 - val_accuracy: 0.8926
+Epoch 8/25
+90/90 [==============================] - 565s 6s/step - loss: 0.2568 - accuracy: 0.9300 - val_loss: 0.3972 - val_accuracy: 0.8733
+Epoch 9/25
+90/90 [==============================] - 568s 6s/step - loss: 0.2561 - accuracy: 0.9344 - val_loss: 0.3001 - val_accuracy: 0.9092
+Epoch 10/25
+90/90 [==============================] - 572s 6s/step - loss: 0.2295 - accuracy: 0.9400 - val_loss: 0.2978 - val_accuracy: 0.9106
+Epoch 11/25
+90/90 [==============================] - 572s 6s/step - loss: 0.1962 - accuracy: 0.9622 - val_loss: 0.3304 - val_accuracy: 0.8908
+Epoch 12/25
+90/90 [==============================] - 563s 6s/step - loss: 0.1911 - accuracy: 0.9589 - val_loss: 0.3027 - val_accuracy: 0.9014
+Epoch 13/25
+90/90 [==============================] - 563s 6s/step - loss: 0.1830 - accuracy: 0.9533 - val_loss: 0.2859 - val_accuracy: 0.9126
+Epoch 14/25
+90/90 [==============================] - 543s 6s/step - loss: 0.1691 - accuracy: 0.9600 - val_loss: 0.2871 - val_accuracy: 0.9112
+Epoch 15/25
+90/90 [==============================] - 547s 6s/step - loss: 0.1613 - accuracy: 0.9622 - val_loss: 0.2736 - val_accuracy: 0.9159
+Epoch 16/25
+90/90 [==============================] - 557s 6s/step - loss: 0.1537 - accuracy: 0.9678 - val_loss: 0.3587 - val_accuracy: 0.8770
+Epoch 17/25
+90/90 [==============================] - 568s 6s/step - loss: 0.1540 - accuracy: 0.9611 - val_loss: 0.2606 - val_accuracy: 0.9196
+Epoch 18/25
+90/90 [==============================] - 564s 6s/step - loss: 0.1433 - accuracy: 0.9656 - val_loss: 0.3053 - val_accuracy: 0.8974
+Epoch 19/25
+90/90 [==============================] - 560s 6s/step - loss: 0.1381 - accuracy: 0.9700 - val_loss: 0.2682 - val_accuracy: 0.9179
+Epoch 20/25
+90/90 [==============================] - 566s 6s/step - loss: 0.1284 - accuracy: 0.9756 - val_loss: 0.3072 - val_accuracy: 0.8969
+Epoch 21/25
+90/90 [==============================] - 567s 6s/step - loss: 0.1221 - accuracy: 0.9756 - val_loss: 0.2557 - val_accuracy: 0.9200
+Epoch 22/25
+90/90 [==============================] - 564s 6s/step - loss: 0.1244 - accuracy: 0.9744 - val_loss: 0.2845 - val_accuracy: 0.9071
+Epoch 23/25
+90/90 [==============================] - 614s 7s/step - loss: 0.1177 - accuracy: 0.9789 - val_loss: 0.2544 - val_accuracy: 0.9186
+Epoch 24/25
+90/90 [==============================] - 602s 7s/step - loss: 0.1140 - accuracy: 0.9789 - val_loss: 0.2322 - val_accuracy: 0.9280
+Epoch 25/25
+90/90 [==============================] - 563s 6s/step - loss: 0.1069 - accuracy: 0.9811 - val_loss: 0.2415 - val_accuracy: 0.9231
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ resnet50 (Functional)       (None, 7, 7, 2048)        23587712
+
+ global_average_pooling2d (G  (None, 2048)             0
+ lobalAveragePooling2D)
+
+ dense (Dense)               (None, 10)                20490
+
+=================================================================
+Total params: 23,608,202
+Trainable params: 20,490
+Non-trainable params: 23,587,712
+_________________________________________________________________
+Over all of the testing data:
+
+313/313 - 485s - loss: 0.2415 - accuracy: 0.9231 - 485s/epoch - 2s/step
+test acc  0.9230999946594238
+test loss  0.2415352314710617

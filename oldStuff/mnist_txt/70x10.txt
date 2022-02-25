@@ -1,0 +1,133 @@
+new xtrain :  (700, 32, 32, 3)
+new ytrain :  (700, 10)
+Learning Rate:  0.01
+Batch Size:  10
+Epochs:  50
+Training Size: 70x10
+Image Dimensions: 32x32
+Stochastic Gradient Descent
+Cross Entropy Loss Function
+MNIST DataSet
+Still with global_average_pooling2d and then
+Dense, 10, SoftMax
+Epoch 1/50
+70/70 [==============================] - 28s 380ms/step - loss: 10.2366 - accuracy: 0.3743 - val_loss: 5.0528 - val_accuracy: 0.4820
+Epoch 2/50
+70/70 [==============================] - 25s 369ms/step - loss: 4.8654 - accuracy: 0.5471 - val_loss: 2.1312 - val_accuracy: 0.6871
+Epoch 3/50
+70/70 [==============================] - 24s 354ms/step - loss: 3.1427 - accuracy: 0.6343 - val_loss: 1.2122 - val_accuracy: 0.7875
+Epoch 4/50
+70/70 [==============================] - 24s 350ms/step - loss: 2.2926 - accuracy: 0.7171 - val_loss: 2.4350 - val_accuracy: 0.6775
+Epoch 5/50
+70/70 [==============================] - 24s 348ms/step - loss: 1.5787 - accuracy: 0.7400 - val_loss: 2.4290 - val_accuracy: 0.6671
+Epoch 6/50
+70/70 [==============================] - 24s 347ms/step - loss: 1.4629 - accuracy: 0.7729 - val_loss: 1.5728 - val_accuracy: 0.7644
+Epoch 7/50
+70/70 [==============================] - 24s 352ms/step - loss: 1.0691 - accuracy: 0.8243 - val_loss: 1.2367 - val_accuracy: 0.7978
+Epoch 8/50
+70/70 [==============================] - 24s 350ms/step - loss: 0.8487 - accuracy: 0.8357 - val_loss: 1.3996 - val_accuracy: 0.7782
+Epoch 9/50
+70/70 [==============================] - 24s 348ms/step - loss: 1.0148 - accuracy: 0.8071 - val_loss: 2.1082 - val_accuracy: 0.7148
+Epoch 10/50
+70/70 [==============================] - 24s 353ms/step - loss: 0.7792 - accuracy: 0.8471 - val_loss: 1.5607 - val_accuracy: 0.7563
+Epoch 11/50
+70/70 [==============================] - 24s 347ms/step - loss: 0.8018 - accuracy: 0.8371 - val_loss: 1.9853 - val_accuracy: 0.6972
+Epoch 12/50
+70/70 [==============================] - 25s 366ms/step - loss: 0.6748 - accuracy: 0.8729 - val_loss: 1.4826 - val_accuracy: 0.7670
+Epoch 13/50
+70/70 [==============================] - 27s 397ms/step - loss: 0.9462 - accuracy: 0.8429 - val_loss: 1.3922 - val_accuracy: 0.8017
+Epoch 14/50
+70/70 [==============================] - 29s 414ms/step - loss: 0.6977 - accuracy: 0.8471 - val_loss: 1.0057 - val_accuracy: 0.8343
+Epoch 15/50
+70/70 [==============================] - 28s 400ms/step - loss: 0.4274 - accuracy: 0.8971 - val_loss: 1.4597 - val_accuracy: 0.7792
+Epoch 16/50
+70/70 [==============================] - 28s 403ms/step - loss: 0.4661 - accuracy: 0.9029 - val_loss: 1.0845 - val_accuracy: 0.8106
+Epoch 17/50
+70/70 [==============================] - 28s 403ms/step - loss: 0.5847 - accuracy: 0.8929 - val_loss: 0.7777 - val_accuracy: 0.8669
+Epoch 18/50
+70/70 [==============================] - 28s 403ms/step - loss: 0.3987 - accuracy: 0.9100 - val_loss: 1.0542 - val_accuracy: 0.8202
+Epoch 19/50
+70/70 [==============================] - 28s 399ms/step - loss: 0.5891 - accuracy: 0.8800 - val_loss: 0.7790 - val_accuracy: 0.8649
+Epoch 20/50
+70/70 [==============================] - 28s 400ms/step - loss: 0.2550 - accuracy: 0.9314 - val_loss: 0.9421 - val_accuracy: 0.8375
+Epoch 21/50
+70/70 [==============================] - 28s 402ms/step - loss: 0.4044 - accuracy: 0.9171 - val_loss: 0.9801 - val_accuracy: 0.8365
+Epoch 22/50
+70/70 [==============================] - 27s 397ms/step - loss: 0.2095 - accuracy: 0.9457 - val_loss: 0.7102 - val_accuracy: 0.8727
+Epoch 23/50
+70/70 [==============================] - 27s 393ms/step - loss: 0.2374 - accuracy: 0.9329 - val_loss: 1.3780 - val_accuracy: 0.8150
+Epoch 24/50
+70/70 [==============================] - 26s 373ms/step - loss: 0.2519 - accuracy: 0.9314 - val_loss: 0.8366 - val_accuracy: 0.8586
+Epoch 25/50
+70/70 [==============================] - 24s 348ms/step - loss: 0.1983 - accuracy: 0.9471 - val_loss: 0.8680 - val_accuracy: 0.8544
+Epoch 26/50
+70/70 [==============================] - 24s 349ms/step - loss: 0.1444 - accuracy: 0.9571 - val_loss: 0.6314 - val_accuracy: 0.8833
+Epoch 27/50
+70/70 [==============================] - 26s 373ms/step - loss: 0.1739 - accuracy: 0.9500 - val_loss: 0.8009 - val_accuracy: 0.8636
+Epoch 28/50
+70/70 [==============================] - 26s 376ms/step - loss: 0.1788 - accuracy: 0.9486 - val_loss: 0.8149 - val_accuracy: 0.8560
+Epoch 29/50
+70/70 [==============================] - 25s 356ms/step - loss: 0.1904 - accuracy: 0.9371 - val_loss: 0.7794 - val_accuracy: 0.8663
+Epoch 30/50
+70/70 [==============================] - 26s 378ms/step - loss: 0.1579 - accuracy: 0.9529 - val_loss: 0.7501 - val_accuracy: 0.8715
+Epoch 31/50
+70/70 [==============================] - 28s 410ms/step - loss: 0.1888 - accuracy: 0.9543 - val_loss: 0.6984 - val_accuracy: 0.8742
+Epoch 32/50
+70/70 [==============================] - 26s 381ms/step - loss: 0.0816 - accuracy: 0.9771 - val_loss: 0.7302 - val_accuracy: 0.8644
+Epoch 33/50
+70/70 [==============================] - 26s 380ms/step - loss: 0.0856 - accuracy: 0.9686 - val_loss: 0.7524 - val_accuracy: 0.8646
+Epoch 34/50
+70/70 [==============================] - 27s 393ms/step - loss: 0.0987 - accuracy: 0.9743 - val_loss: 0.6743 - val_accuracy: 0.8756
+Epoch 35/50
+70/70 [==============================] - 27s 396ms/step - loss: 0.0850 - accuracy: 0.9757 - val_loss: 0.6807 - val_accuracy: 0.8756
+Epoch 36/50
+70/70 [==============================] - 27s 394ms/step - loss: 0.0472 - accuracy: 0.9857 - val_loss: 0.8682 - val_accuracy: 0.8500
+Epoch 37/50
+70/70 [==============================] - 27s 398ms/step - loss: 0.0457 - accuracy: 0.9829 - val_loss: 0.6526 - val_accuracy: 0.8795
+Epoch 38/50
+70/70 [==============================] - 27s 390ms/step - loss: 0.0524 - accuracy: 0.9857 - val_loss: 0.7525 - val_accuracy: 0.8729
+Epoch 39/50
+70/70 [==============================] - 26s 375ms/step - loss: 0.0520 - accuracy: 0.9929 - val_loss: 0.6253 - val_accuracy: 0.8856
+Epoch 40/50
+70/70 [==============================] - 25s 355ms/step - loss: 0.0387 - accuracy: 0.9871 - val_loss: 0.6290 - val_accuracy: 0.8818
+Epoch 41/50
+70/70 [==============================] - 24s 350ms/step - loss: 0.0865 - accuracy: 0.9814 - val_loss: 0.6342 - val_accuracy: 0.8846
+Epoch 42/50
+70/70 [==============================] - 24s 347ms/step - loss: 0.0286 - accuracy: 0.9900 - val_loss: 0.6334 - val_accuracy: 0.8858
+Epoch 43/50
+70/70 [==============================] - 24s 348ms/step - loss: 0.0229 - accuracy: 0.9886 - val_loss: 0.6716 - val_accuracy: 0.8779
+Epoch 44/50
+70/70 [==============================] - 24s 350ms/step - loss: 0.0276 - accuracy: 0.9871 - val_loss: 0.6675 - val_accuracy: 0.8745
+Epoch 45/50
+70/70 [==============================] - 25s 356ms/step - loss: 0.0188 - accuracy: 0.9971 - val_loss: 0.7034 - val_accuracy: 0.8729
+Epoch 46/50
+70/70 [==============================] - 25s 359ms/step - loss: 0.0810 - accuracy: 0.9786 - val_loss: 0.6388 - val_accuracy: 0.8806
+Epoch 47/50
+70/70 [==============================] - 29s 423ms/step - loss: 0.0251 - accuracy: 0.9871 - val_loss: 0.6243 - val_accuracy: 0.8865
+Epoch 48/50
+70/70 [==============================] - 27s 395ms/step - loss: 0.0308 - accuracy: 0.9914 - val_loss: 0.6762 - val_accuracy: 0.8771
+Epoch 49/50
+70/70 [==============================] - 27s 392ms/step - loss: 0.0135 - accuracy: 0.9971 - val_loss: 0.6450 - val_accuracy: 0.8816
+Epoch 50/50
+70/70 [==============================] - 26s 378ms/step - loss: 0.0123 - accuracy: 0.9986 - val_loss: 0.6360 - val_accuracy: 0.8849
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ resnet50 (Functional)       (None, 1, 1, 2048)        23587712
+
+ global_average_pooling2d (G  (None, 2048)             0
+ lobalAveragePooling2D)
+
+ dense (Dense)               (None, 10)                20490
+
+=================================================================
+Total params: 23,608,202
+Trainable params: 20,490
+Non-trainable params: 23,587,712
+_________________________________________________________________
+Over all of the testing data:
+
+313/313 - 20s - loss: 0.6360 - accuracy: 0.8849 - 20s/epoch - 63ms/step
+test acc  0.8848999738693237
+test loss  0.6360424160957336
